@@ -1,0 +1,77 @@
+/*Stylesheet for VCard*/
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    font-size: 1em;
+    font-family: "Open Sans", "Liberation Sans", "sans-serif";
+}
+h1, h2{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+a{
+    color: navajowhite;
+}
+a:hover{
+    color: darkslateblue;
+}
+h1{
+    font-size: 2em;
+    color: antiquewhite;
+    letter-spacing: 0.1em;
+}
+h2{
+    font-size: 1.2em;
+    color: darkred;
+    font-weight: lighter;
+}
+footer{
+    position: absolute;
+    bottom: 20px;
+    color: navajowhite;
+}
+.vcard{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.frame_white{
+    padding: 1.2em;
+    background: rgba(255,255,255,0.2);
+    border: white 2px solid;
+}
+.left{
+    /*align-items: stretch;*/
+    padding: 20px;
+    flex-grow: 1;
+    min-width: 50%;
+    background: orangered;
+    background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    /*align-items: stretch;*/
+    padding: 20px;
+    flex-grow: 1;
+    width: auto;
+    background: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+text-align: center;
+}
+#contact{
+
+}
+
+.photo{
+    margin: 10px;
+}
